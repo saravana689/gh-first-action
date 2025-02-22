@@ -1,0 +1,13 @@
+name: First Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: echo "Om Vinayaga!"
+      - name: print greeting2
+        run: echo "Om Shivaya namha"
+      - name: print greeting3
+        run: echo "Om Sai Ram"
+        
